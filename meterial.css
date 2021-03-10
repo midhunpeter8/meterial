@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: beige;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    /* background-color: yellowgreen; */
+    
+
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top:20px;
+    background-color:white;
+    padding-top: 50px;
+    
+}
+.box h1{
+    font-size: 25px;
+    margin-left: 0px;
+    color: rgb(238, 69, 97);
+    padding-left: 40px;
+    border-left:5px solid rgb(240, 58, 88) ;
+    
+
+}
+.box input{
+    margin-top: 25px;
+    margin-left: 45px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(56, 54, 54);
+}
+.box button{
+    margin-left: 80px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding: 10px 60px 10px 60px;
+    color: rgb(173, 166, 156);
+}
+.box h5{
+  margin-left: 80px;
+  color: rgb(180, 180, 165);
+    
+}
+.box p{
+    margin-top: 20px;
+}
+.fa-pen{
+position: absolute;
+padding: 20px;
+color: rgb(250, 249, 249);
+background-color: rgb(236, 86, 111);
+border-radius: 100%;
+top: 40px;
+right: -20px;
+font-size: 30px;
+}
+.box2{
+    position: absolute;
+    width: 285px;
+    height: 280px;
+    margin-top:10px;
+    background-color:rgb(252, 218, 218);
+    padding-top: 50px;
+}
